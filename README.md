@@ -7,7 +7,7 @@ Projeto baseado na metodologia ágil SCRUM de acompanhamento do desempenho de mu
 * [Projeto](#projeto)
 * [Equipe](#equipe)
 * [Objetivo do Projeto](#objetivo-do-projeto)
-* [Backlog do produto](#backlog-do-produto)
+* [Backlog do Produto](#backlog-do-produto)
 
 # Projeto
 Acompanhamento dos Resultados de Exportação dos Municípios do Estado de São Paulo, baseando-se nos dados abertos do Ministério do Desenvolvimento, Indústria, Comércio e Serviços.
