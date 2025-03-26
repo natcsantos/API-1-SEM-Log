@@ -2,6 +2,9 @@
 
 Projeto baseado na Metodologia SCRUM para acompanhamento do desempenho de municípios do estado de São Paulo.
 
+## Repositório original do projeto
+[Acesse o perfil da InteliLog](https://github.com/intelilog)
+
 # Índice
 * [Projeto](#projeto)
 * [Equipe](#equipe)
