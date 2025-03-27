@@ -1,8 +1,15 @@
 import pandas as pd
+from pathlib import Path
 
-df1 = pd.read_csv("C:/Users/malen/Desktop/API 2025/EXP_2023_MUN.csv")
-df2 = pd.read_csv("C:/Users/malen/Desktop/API 2025/EXP_2024_MUN.csv")
-combined = pd.concat([df1, df2])
+pasta_script = Path(__file__).parent
 
-caminho_saida = "C:/Users/malen/Desktop/API 2025/export_combined.csv"
-combined.to_csv(caminho_saida, index=False)
+arquivo1 = "EXP_2023_MUN.csv"
+arquivo2 = "EXP_2024_MUN.csv"
+arquivo_saida = "export_combined.csv"
+
+df1 = pd.read_csv(pasta_script / arquivo1)
+df2 = pd.read_csv(pasta_script / arquivo2)
+
+pd.concat([df1, df2]).to_csv(pasta_script / arquivo_saida, index=False)
+
+print(f"Arquivo combinado salvo em: {pasta_script / arquivo_saida}")
