@@ -1,4 +1,4 @@
-# Aprendizado por Projeto Integrador (API)
+# API 1° Semestre - Acompanhamento dos Resultados de Exportação dos Municípios do Estado de São Paulo
 
 Projeto baseado na Metodologia SCRUM para acompanhamento do desempenho de municípios do estado de São Paulo.
 
